@@ -7,4 +7,20 @@
     <RootNamespace>E_JOGOS</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Equipe\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Equipe\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Equipe\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Equipe\Index.cshtml" />
+  </ItemGroup>
+
 </Project>
